@@ -1,0 +1,49 @@
+<!-- Name: [Your Name], Roll Number: [Your Roll Number], Section: [Your Section] -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Corner Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Welcome to The Corner Cafe</h1>
+    <p>Enjoy the best tea, coffee, and snacks in town!</p>
+
+    <!-- Remember to create an "images" folder and save a picture as cafe.jpg -->
+    <img src="images/cafe.jpg" alt="A picture of our cafe" width="300">
+
+    <h2>Our Cafe Menu</h2>
+    
+    <table border="1">
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Karak Chai</td>
+            <td>Rs. 100</td>
+        </tr>
+        <tr>
+            <td>Chicken Samosa</td>
+            <td>Rs. 80</td>
+        </tr>
+        <tr>
+            <td>Black Coffee</td>
+            <td>Rs. 250</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <button onclick="orderChai()">Order Chai</button>
+
+    <script>
+        function orderChai() {
+            console.log("Order button was clicked for Chai");
+            window.alert("Your chai has been ordered!");
+        }
+    </script>
+
+</body>
+</html>
